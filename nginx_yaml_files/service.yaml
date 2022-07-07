@@ -5,7 +5,7 @@ metadata:
     app: nginx
   name: nginx-service
   namespace: default
-specs:
+spec:
   ports:
   - port: 80
     protocol: TCP
