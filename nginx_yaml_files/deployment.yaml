@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    apps: nginx
+    app: nginx
   name: nginx-deployment
 spec:
   replicas: 1
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        apps: nginx
+        app: nginx
     spec:
       containers:
       - image: nginx
